@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BoxViewBug.MainPage">
+
+    <Grid HorizontalOptions="Start" BackgroundColor="Red">
+
+        <VerticalStackLayout>
+            <Label Text="Hello, World!" />
+            <BoxView HeightRequest="5" Color="Green"/>
+            <Label Text="Hello, World!" />
+            <BoxView HeightRequest="5" Color="Green"/>
+            <Label Text="Hello, World!" />
+            <BoxView HeightRequest="5" Color="Green"/>
+            <Label Text="Hello, World!" />
+            <BoxView HeightRequest="5" Color="Green"/>
+            <Label Text="Hello, World!" />
+            <BoxView HeightRequest="5" Color="Green"/>
+
+        </VerticalStackLayout>
+    </Grid>
+
+
+</ContentPage>
